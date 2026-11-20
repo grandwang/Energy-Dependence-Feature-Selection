@@ -1,5 +1,7 @@
 # EDFS — minimal reproducible release
 
+Official pre-release code for our manuscript "Energy–Dependence Feature Selection".
+
 A small, executable release of EDFS for feature selection with partially labeled
 training data. The frozen implementation is exposed as `EDFS`.
 

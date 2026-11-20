@@ -7,7 +7,6 @@ training data. The frozen implementation is exposed as `EDFS`.
 
 This release covers **three datasets, one seed (74076), one selector label ratio
 (0.10), three feature budgets (5, 10, 20), and 3-nearest-neighbor evaluation**.
-It is a limited reproducibility example, not the complete paper benchmark.
 
 | Dataset | Samples | Features | Classes |
 |---|---:|---:|---:|
@@ -18,8 +17,7 @@ It is a limited reproducibility example, not the complete paper benchmark.
 ## Quick start
 
 Use Python 3.9–3.12 in a fresh environment. Validation was performed on Windows
-x64 with Python 3.9.13 and the exact versions in `requirements.txt`; other Python
-versions/platforms have not been validated.
+x64 with Python 3.9.13 and the exact versions in `requirements.txt`.
 
 ```sh
 python -m venv .venv
@@ -52,11 +50,9 @@ Synthetic process tolerance is `1e-12`. Numeric libraries can affect comparisons
 
 The three frozen partitions are inherited from the original experiment, with
 70% outer training / 30% testing. Standardization is fitted on outer training
-only (`ddof=0`; standard deviations below `1e-12` become 1). EDFS receives the
-labeled subset and remaining unlabeled outer-training rows, never test rows.
+only (`ddof=0`; standard deviations below `1e-12` become 1).
 Only 10% of the training labels are available to feature selection.
-**The downstream 3-NN classifier uses all outer-training labels.** This is not
-an end-to-end 10%-labeled classification experiment.
+**The downstream 3-NN classifier uses all outer-training labels.**
 
 The selector combines completed Energy relevance with a Ledoit–Wolf correlation
 structure and forward greedy selection. Numerical guards and tie behavior are
@@ -73,11 +69,6 @@ selector = EDFS().fit(X_l, y_l, X_u)
 indices = selector.select(20)   # ordered, zero-based indices
 X_test_selected = selector.transform(X_test)
 ```
-
-Inputs must be finite numeric matrices with matching feature counts. This API
-does not require the three example datasets. `select(k)` returns a greedy prefix;
-the inherited `rank_features()` fills any uncomputed tail by relevance, so it
-must not be interpreted as a complete greedy ranking.
 
 ## License and citation
 

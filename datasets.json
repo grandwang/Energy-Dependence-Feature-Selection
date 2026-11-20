@@ -1,0 +1,59 @@
+[
+  {
+    "dataset": "COIL20",
+    "file": "COIL20.mat",
+    "samples": 1440,
+    "features": 1024,
+    "classes": 20,
+    "source_url": "https://jundongl.github.io/scikit-feature/datasets.html",
+    "download_url": "https://jundongl.github.io/scikit-feature/files/datasets/COIL20.mat",
+    "upstream_keys": [
+      "X",
+      "Y"
+    ],
+    "accepted_file_sha256": [
+      "d333915e9a4d7eb28b4d8ac309742802a41e943348329b35e59fbf11a32986d5",
+      "4595ebdda07f47b0eb014fcfaddc22b452f9aed9c1d9261a0d5bc336c1ee1344"
+    ],
+    "X_sha256": "f6eb3a1aa58ac984b4acaf63c596b5f15216018a098e734654a43148f4df01e5",
+    "y_sha256": "095da1f4b815feacb64b65f9b32c9be029be0610e6a1b89bc803fb56453d7021"
+  },
+  {
+    "dataset": "madelon",
+    "file": "madelon.mat",
+    "samples": 2600,
+    "features": 500,
+    "classes": 2,
+    "source_url": "https://jundongl.github.io/scikit-feature/datasets.html",
+    "download_url": "https://jundongl.github.io/scikit-feature/files/datasets/madelon.mat",
+    "upstream_keys": [
+      "X",
+      "Y"
+    ],
+    "accepted_file_sha256": [
+      "aefaafbe57bac5089c0fd5b872152f0e2afcac703d3625493f4c13bd2c141182",
+      "7dc9c9ff8d902651948e2df7f9cb6ed38c5d91e4c4159914cecb1ddbc7def12c"
+    ],
+    "X_sha256": "5a287dbc63e6999bb2fc00c43dc874e2603763067ecde8b94742a43e45d618a8",
+    "y_sha256": "275b41cb0ef7f3fc2dc9569b1ef1cb9bc1488479027e3780563badb2bb4e02de"
+  },
+  {
+    "dataset": "mlj2018_waveform",
+    "file": "mlj2018_waveform.mat",
+    "samples": 5000,
+    "features": 40,
+    "classes": 3,
+    "source_url": "https://github.com/sechidis/2018-MLJ-Semi-supervised-feature-selection",
+    "download_url": "https://raw.githubusercontent.com/sechidis/2018-MLJ-Semi-supervised-feature-selection/master/Datasets/waveform.mat",
+    "upstream_keys": [
+      "X_data",
+      "Y_labels"
+    ],
+    "accepted_file_sha256": [
+      "19e7cc8b5f6c6721ee999195d54f85ec17865a6a30adb00116f2aaff536a7572",
+      "1b47ed2fb6d33400a383c04648f5c212dcb169950819fa342808d966d6a0511c"
+    ],
+    "X_sha256": "cf2db34bb353926104e21c4e62a929035d15ab5fa7e92feb0ea2787f546a3b60",
+    "y_sha256": "3c5a35916ffd29d58066d94c9e31de16c4eee95bf4acebf2cc4c3cf4c3e1ed2d"
+  }
+]

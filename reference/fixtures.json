@@ -1,0 +1,17 @@
+[
+  {
+    "id": "fixture_00",
+    "file": "reference/fixtures/fixture_00.npz",
+    "budget": 1
+  },
+  {
+    "id": "fixture_01",
+    "file": "reference/fixtures/fixture_01.npz",
+    "budget": 8
+  },
+  {
+    "id": "fixture_02",
+    "file": "reference/fixtures/fixture_02.npz",
+    "budget": 12
+  }
+]

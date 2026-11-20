@@ -1,0 +1,19 @@
+EDFS minimal reproducible release, version 0.1.0, 2026-11-20.
+
+First-party source code and accompanying first-party release materials in this
+package are licensed under the GNU General Public License, version 3 only
+(SPDX: GPL-3.0-only), as provided in LICENSE.
+Existing authorship and copyright interests are retained by their respective
+holders. No author identities, institutional affiliations, or publication
+metadata are asserted by this packaging revision.
+
+selector.py is the R22OX-Reduced v0.1.0 frozen scientific implementation, with
+selected internal B/N/U capitalization changes dated 2026-11-20,
+provided by the owner. edfs.py supplies the public EDFS alias. The minimal runner
+does not change its selection arithmetic. The naming signature does not assert
+institutional endorsement. Historical reference values and fixed
+split indices are a limited extract of the original reproducibility package.
+
+NumPy, SciPy, scikit-learn, joblib, and threadpoolctl are installed separately
+and retain their respective licenses. No third-party runtime or dataset matrix
+is bundled. Dataset sources are documented in DATASETS.md.

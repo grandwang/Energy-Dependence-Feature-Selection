@@ -1,0 +1,33 @@
+{
+  "seed": 74076,
+  "label_ratio": 0.1,
+  "budgets": [
+    5,
+    10,
+    20
+  ],
+  "classifier": "3-NN",
+  "tasks": [
+    {
+      "dataset": "COIL20",
+      "seed": 74076,
+      "label_ratio": 0.1,
+      "file": "splits/COIL20_seed74076_test0p3_label0p1.npz",
+      "sha256": "97d893c5e14f7d9874267435c8a3b8072b5d2e12e33d62cd612c08580db069c5"
+    },
+    {
+      "dataset": "madelon",
+      "seed": 74076,
+      "label_ratio": 0.1,
+      "file": "splits/madelon_seed74076_test0p3_label0p1.npz",
+      "sha256": "8fa8397043f4350180bccd9d145f7f22d8a4a022a8b2a306da913fd78fe1de79"
+    },
+    {
+      "dataset": "mlj2018_waveform",
+      "seed": 74076,
+      "label_ratio": 0.1,
+      "file": "splits/mlj2018_waveform_seed74076_test0p3_label0p1.npz",
+      "sha256": "1a35afe140d027d6ae425ff254219101298e2fc12f899431dc73657cc3e3cca7"
+    }
+  ]
+}

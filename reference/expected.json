@@ -1,0 +1,242 @@
+[
+  {
+    "dataset": "COIL20",
+    "seed": 74076,
+    "label_ratio": 0.1,
+    "feature_budget": 5,
+    "selected_features": [
+      520,
+      414,
+      523,
+      623,
+      480
+    ],
+    "split_sha256": "97d893c5e14f7d9874267435c8a3b8072b5d2e12e33d62cd612c08580db069c5",
+    "metrics": {
+      "accuracy": 0.8379629629629629,
+      "balanced_accuracy": 0.8377705627705627,
+      "macro_f1": 0.8327408805145617,
+      "weighted_f1": 0.833060298833996
+    }
+  },
+  {
+    "dataset": "COIL20",
+    "seed": 74076,
+    "label_ratio": 0.1,
+    "feature_budget": 10,
+    "selected_features": [
+      520,
+      414,
+      523,
+      623,
+      480,
+      1000,
+      425,
+      174,
+      150,
+      99
+    ],
+    "split_sha256": "97d893c5e14f7d9874267435c8a3b8072b5d2e12e33d62cd612c08580db069c5",
+    "metrics": {
+      "accuracy": 0.9050925925925926,
+      "balanced_accuracy": 0.9047619047619048,
+      "macro_f1": 0.9029435190324483,
+      "weighted_f1": 0.9034929816216551
+    }
+  },
+  {
+    "dataset": "COIL20",
+    "seed": 74076,
+    "label_ratio": 0.1,
+    "feature_budget": 20,
+    "selected_features": [
+      520,
+      414,
+      523,
+      623,
+      480,
+      1000,
+      425,
+      174,
+      150,
+      99,
+      591,
+      403,
+      482,
+      114,
+      683,
+      707,
+      491,
+      247,
+      162,
+      968
+    ],
+    "split_sha256": "97d893c5e14f7d9874267435c8a3b8072b5d2e12e33d62cd612c08580db069c5",
+    "metrics": {
+      "accuracy": 0.9513888888888888,
+      "balanced_accuracy": 0.9508658008658009,
+      "macro_f1": 0.9499535170997857,
+      "weighted_f1": 0.9501993889164108
+    }
+  },
+  {
+    "dataset": "madelon",
+    "seed": 74076,
+    "label_ratio": 0.1,
+    "feature_budget": 5,
+    "selected_features": [
+      295,
+      475,
+      241,
+      353,
+      10
+    ],
+    "split_sha256": "8fa8397043f4350180bccd9d145f7f22d8a4a022a8b2a306da913fd78fe1de79",
+    "metrics": {
+      "accuracy": 0.5269230769230769,
+      "balanced_accuracy": 0.5269230769230769,
+      "macro_f1": 0.5269222993463172,
+      "weighted_f1": 0.5269222993463171
+    }
+  },
+  {
+    "dataset": "madelon",
+    "seed": 74076,
+    "label_ratio": 0.1,
+    "feature_budget": 10,
+    "selected_features": [
+      295,
+      475,
+      241,
+      353,
+      10,
+      108,
+      248,
+      454,
+      264,
+      408
+    ],
+    "split_sha256": "8fa8397043f4350180bccd9d145f7f22d8a4a022a8b2a306da913fd78fe1de79",
+    "metrics": {
+      "accuracy": 0.5615384615384615,
+      "balanced_accuracy": 0.5615384615384615,
+      "macro_f1": 0.5613048368953881,
+      "weighted_f1": 0.561304836895388
+    }
+  },
+  {
+    "dataset": "madelon",
+    "seed": 74076,
+    "label_ratio": 0.1,
+    "feature_budget": 20,
+    "selected_features": [
+      295,
+      475,
+      241,
+      353,
+      10,
+      108,
+      248,
+      454,
+      264,
+      408,
+      338,
+      304,
+      14,
+      315,
+      162,
+      180,
+      385,
+      158,
+      499,
+      56
+    ],
+    "split_sha256": "8fa8397043f4350180bccd9d145f7f22d8a4a022a8b2a306da913fd78fe1de79",
+    "metrics": {
+      "accuracy": 0.5243589743589744,
+      "balanced_accuracy": 0.5243589743589744,
+      "macro_f1": 0.5227705627705628,
+      "weighted_f1": 0.5227705627705628
+    }
+  },
+  {
+    "dataset": "mlj2018_waveform",
+    "seed": 74076,
+    "label_ratio": 0.1,
+    "feature_budget": 5,
+    "selected_features": [
+      6,
+      5,
+      15,
+      9,
+      13
+    ],
+    "split_sha256": "1a35afe140d027d6ae425ff254219101298e2fc12f899431dc73657cc3e3cca7",
+    "metrics": {
+      "accuracy": 0.708,
+      "balanced_accuracy": 0.708772542545085,
+      "macro_f1": 0.7071801280369862,
+      "weighted_f1": 0.7066158292849523
+    }
+  },
+  {
+    "dataset": "mlj2018_waveform",
+    "seed": 74076,
+    "label_ratio": 0.1,
+    "feature_budget": 10,
+    "selected_features": [
+      6,
+      5,
+      15,
+      9,
+      13,
+      4,
+      7,
+      14,
+      10,
+      12
+    ],
+    "split_sha256": "1a35afe140d027d6ae425ff254219101298e2fc12f899431dc73657cc3e3cca7",
+    "metrics": {
+      "accuracy": 0.7933333333333333,
+      "balanced_accuracy": 0.793746295825925,
+      "macro_f1": 0.7930030412625131,
+      "weighted_f1": 0.7927581069223019
+    }
+  },
+  {
+    "dataset": "mlj2018_waveform",
+    "seed": 74076,
+    "label_ratio": 0.1,
+    "feature_budget": 20,
+    "selected_features": [
+      6,
+      5,
+      15,
+      9,
+      13,
+      4,
+      7,
+      14,
+      10,
+      12,
+      11,
+      8,
+      16,
+      3,
+      2,
+      17,
+      18,
+      1,
+      19,
+      34
+    ],
+    "split_sha256": "1a35afe140d027d6ae425ff254219101298e2fc12f899431dc73657cc3e3cca7",
+    "metrics": {
+      "accuracy": 0.8046666666666666,
+      "balanced_accuracy": 0.8050122766912201,
+      "macro_f1": 0.8045468345873493,
+      "weighted_f1": 0.8043776663883832
+    }
+  }
+]
